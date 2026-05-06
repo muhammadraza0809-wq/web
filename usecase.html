@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sate Nusantara</title>
+    <link rel="stylesheet" href="usecase.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+    <h2>🍢 Sate Nusantara</h2>
+
+    <div class="menu"><a href="#home" class="active">Home</a></div>
+    <div class="menu"><a href="#deskripsi">Deskripsi</a></div>
+    <div class="menu"><a href="#aktor">Aktor</a></div>
+    <div class="menu"><a href="#usecase">Use Case</a></div>
+    <div class="menu"><a href="#relasi">Relasi</a></div>
+    <div class="menu"><a href="#diagram">Use Case Diagram</a></div>
+    <div class="menu"><a href="#activity">Activity Diagram</a></div>
+    <div class="menu"><a href="#sequence">Sequence Diagram</a></div>
+    <div class="menu"><a href="#class">Class Diagram</a></div>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+    <!-- HOME -->
+   <div class="section active" id="home">
+    <div class="card">
+        <h1>Selamat Datang di Sate Nusantara 🍢</h1>
+
+        <div class="box">
+            <!-- Kolom 1 -->
+            <div class="mini-box">
+                <h3>🍢 Cita Rasa Autentik</h3>
+                <p>
+                    Nikmati berbagai sate khas Indonesia seperti Sate Ayam,
+                    Sate Padang, dan Sate Kambing dengan rasa yang menggugah selera.
+                </p>
+            </div>
+
+            <!-- Kolom 2 -->
+            <div class="mini-box">
+                <h3>⚡ Praktis & Cepat</h3>
+                <p>
+                    Pesan makanan dengan mudah melalui sistem digital
+                    yang cepat, praktis, dan efisien tanpa ribet.
+                </p>
+            </div>
+
+            <!-- Kolom 3 -->
+            <div class="mini-box">
+                <h3>⭐ Kualitas Terbaik</h3>
+                <p>
+                    Kami menggunakan bahan berkualitas tinggi dan menjaga
+                    kebersihan serta pelayanan terbaik untuk pelanggan.
+                </p>
+            </div>
+        </div>
+
+        <p style="text-align:center; margin-top:20px;">
+            Yuk, pesan sekarang dan rasakan kelezatan sate Nusantara!
+        </p>
+    </div>
+</div>
+                
+
+.</p>
+        </div>
+    </div>
+
+    <!-- DESKRIPSI -->
+   <div class="section" id="deskripsi">
+    <div class="card">
+        <h2>Deskripsi Sistem</h2>
+
+        <div class="box">
+            <!-- Kolom 1 -->
+            <div class="mini-box">
+                <h3>💻 Sistem Digital</h3>
+                <p>
+                    Sate Nusantara adalah sistem berbasis digital
+                    yang memudahkan pengguna dalam mengakses
+                    informasi menu secara online.
+                </p>
+            </div>
+
+            <!-- Kolom 2 -->
+            <div class="mini-box">
+                <h3>📋 Pemesanan Mudah</h3>
+                <p>
+                    Pengguna dapat melihat menu dan melakukan
+                    pemesanan dengan cepat tanpa proses yang
+                    rumit.
+                </p>
+            </div>
+
+            <!-- Kolom 3 -->
+            <div class="mini-box">
+                <h3>⚙️ Manajemen Data</h3>
+                <p>
+                    Admin dan kasir dapat mengelola menu serta
+                    memproses transaksi secara terstruktur dan efisien.
+                </p>
+            </div>
+        </div>
+
+        <p style="text-align:center; margin-top:20px;">
+            Sistem ini dirancang untuk memberikan kemudahan dan kenyamanan bagi pengguna.
+        </p>
+    </div>
+</div>
+
+    <!-- AKTOR -->
+   <div class="section" id="aktor">
+    <div class="card">
+        <h2>Identifikasi Aktor</h2>
+
+        <div class="box">
+            <!-- Pelanggan -->
+            <div class="mini-box">
+                <h3>👤 Pelanggan</h3>
+                <p>
+                    Aktor yang menggunakan sistem untuk melihat menu,
+                    melakukan pemesanan, dan melakukan pembayaran.
+                </p>
+            </div>
+
+            <!-- Admin -->
+            <div class="mini-box">
+                <h3>🛠️ Admin</h3>
+                <p>
+                    Bertugas mengelola data menu seperti menambah,
+                    mengubah, dan menghapus menu dalam sistem.
+                </p>
+            </div>
+
+            <!-- Kasir -->
+            <div class="mini-box">
+                <h3>💳 Kasir</h3>
+                <p>
+                    Bertanggung jawab dalam memproses transaksi,
+                    menerima pembayaran, dan mencetak struk.
+                </p>
+            </div>
+        </div>
+
+        <p style="text-align:center; margin-top:20px;">
+            Ketiga aktor ini saling berinteraksi dalam sistem untuk memastikan proses berjalan dengan baik.
+        </p>
+    </div>
+</div>
+
+    <!-- USE CASE -->
+   <div class="section" id="usecase">
+    <div class="card">
+        <h2>Use Case</h2>
+
+        <div class="box">
+            <!-- USER -->
+            <div class="mini-box">
+                <h3>👤 User / Pelanggan</h3>
+                <ul>
+                    <li>Melihat Menu</li>
+                    <li>Memilih Makanan</li>
+                    <li>Melakukan Pemesanan</li>
+                    <li>Melakukan Pembayaran</li>
+                    <li>Menerima Struk</li>
+                </ul>
+            </div>
+
+            <!-- ADMIN -->
+            <div class="mini-box">
+                <h3>🛠️ Admin</h3>
+                <ul>
+                    <li>Menambah Menu</li>
+                    <li>Mengubah Menu</li>
+                    <li>Menghapus Menu</li>
+                    <li>Mengelola Data</li>
+                </ul>
+            </div>
+
+            <!-- KASIR -->
+            <div class="mini-box">
+                <h3>💳 Kasir</h3>
+                <ul>
+                    <li>Menerima Pesanan</li>
+                    <li>Memproses Pembayaran</li>
+                    <li>Mencetak Struk</li>
+                    <li>Mengonfirmasi Transaksi</li>
+                </ul>
+            </div>
+        </div>
+
+        <p style="text-align:center; margin-top:20px;">
+            Use case ini menggambarkan interaksi antara aktor dan sistem dalam proses pemesanan sate.
+        </p>
+    </div>
+</div>
+
+    <!-- RELASI -->
+  <div class="section" id="relasi">
+    <div class="card">
+        <h2>Relasi Sistem</h2>
+
+        <div class="box">
+            <!-- User -->
+            <div class="mini-box">
+                <h3>👤 User → Sistem</h3>
+                <p>
+                    User berinteraksi dengan sistem untuk melihat menu,
+                    memilih makanan, dan melakukan pemesanan.
+                </p>
+            </div>
+
+            <!-- Kasir -->
+            <div class="mini-box">
+                <h3>💳 Kasir → Sistem</h3>
+                <p>
+                    Kasir memproses pembayaran, mengonfirmasi pesanan,
+                    dan mencetak struk melalui sistem.
+                </p>
+            </div>
+
+            <!-- Admin -->
+            <div class="mini-box">
+                <h3>🛠️ Admin → Sistem</h3>
+                <p>
+                    Admin mengelola data menu dan memastikan sistem
+                    berjalan dengan baik dan terstruktur.
+                </p>
+            </div>
+        </div>
+
+        <p style="text-align:center; margin-top:20px;">
+            Relasi ini menunjukkan bagaimana setiap aktor berinteraksi dengan sistem dalam proses pemesanan sate.
+        </p>
+    </div>
+</div>
+
+    <!-- DIAGRAM -->
+    <div class="section" id="diagram">
+        <div class="card">
+            <h2>Diagram Visual</h2>
+            <img src="usecase_diagram.png" class="diagram-img">
+        </div>
+    </div>
+
+</div>
+<!-- ACTIVITY DIAGRAM -->
+<div class="section" id="activity">
+    <div class="card">
+        <h2>Step 6: Activity Diagram</h2>
+
+        <p>
+            Activity Diagram menggambarkan alur aktivitas sistem pemesanan makanan
+            pada UMKM Sate Nusantara dari pelanggan hingga pesanan selesai.
+        </p>
+
+        <!-- TEKS -->
+        <ol>
+            <li>Pelanggan membuka website</li>
+            <li>Sistem menampilkan halaman beranda</li>
+            <li>Pelanggan melihat dan memilih menu</li>
+            <li>Sistem menampilkan detail menu</li>
+            <li>Pelanggan melakukan pemesanan</li>
+            <li>Sistem menerima dan memproses pesanan</li>
+            <li>Pelanggan melakukan pembayaran</li>
+            <li>Sistem memverifikasi pembayaran</li>
+            <li>Dapur menyiapkan pesanan</li>
+            <li>Pesanan selesai dan diberikan ke pelanggan</li>
+        </ol>
+
+        <!-- DIAGRAM -->
+        <h3 style="margin-top:25px;">Diagram Activity</h3>
+
+        <div class="mermaid">
+            flowchart TD
+                A([Mulai]) --> B[Pelanggan membuka website]
+                B --> C[Sistem menampilkan beranda]
+                C --> D[Pelanggan memilih menu]
+                D --> E[Sistem menampilkan detail menu]
+                E --> F[Pelanggan melakukan pemesanan]
+                F --> G[Sistem memproses pesanan]
+                G --> H[Pelanggan melakukan pembayaran]
+                H --> I[Sistem verifikasi pembayaran]
+                I --> J[Dapur menyiapkan pesanan]
+                J --> K[Pesanan selesai]
+                K --> L([Selesai])
+        </div>
+
+    </div>
+</div>
+<!-- SEQUENCE DIAGRAM -->
+<div class="section" id="sequence">
+    <div class="card">
+        <div class="menu"><a href="#login">Login</a></div>
+        <h2>Sequence Diagram</h2>
+ <img src="sequence_diagram.png" 
+             alt="Diagram Use Case Sate Nusantara" 
+             class="DiagramUseCase">
+        
+        <p>
+            Activity Diagram menggambarkan alur aktivitas sistem pemesanan makanan
+            pada UMKM Sate Nusantara dari pelanggan hingga pesanan selesai.
+        </p>
+
+
+
+<script src="usecase.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({ startOnLoad: true });
+</script>
+</body>
+</html>
+<!-- DIAGRAM USE CASE -->
+<div class="section" id="diagram">
+    <div class="card">
+        <h2>Diagram Use Case</h2>
+
+        <img src="DiagramUseCase.png" 
+             alt="Diagram Use Case Sate Nusantara" 
+             class="DiagramUseCase">
+
+        <p class="caption">
+            Diagram Use Case Sistem Sate Nusantara
+        </p>
+    </div>
+</div>
+<!-- LOGIN -->
+<div class="section" id="login">
+    <div class="card">
+        <h2>Login Sistem</h2>
+
+        <form onsubmit="return loginUser()">
+            <label>Username</label><br>
+            <input type="text" id="username" required><br><br>
+
+            <label>Password</label><br>
+            <input type="password" id="password" required><br><br>
+
+            <label>Login Sebagai</label><br>
+            <select id="role">
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+            </select><br><br>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p id="login-msg" style="margin-top:10px;"></p>
+    </div>
+</div>
